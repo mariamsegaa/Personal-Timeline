@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Personal Timeline</title>
+      <link rel="stylesheet" href="style.css">
+  </head>
+    <body>
+        <header><h1>My Personal Timeline</h1></header>
+        <div class="WholeContent">
+            <div class="Form">
+                <h2>Add New Event</h2>
+                <form id="eventForm">
+                    <input type="text" id="eventTitle" placeholder="Event Title" required>
+                    <textarea id="eventDescription" placeholder="Event Description" required></textarea>
+                    <input type="date" id="eventDate" required>
+                    <div class="button-group">
+                        <button type="submit">Add Event</button>
+                        <button type="button" id="reset">Reset Timeline</button>
+                    </div>
+                </form>
+            </div>
+            <div class="Output" id="Output"></div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+      <footer>
+        <p>&copy; 2025 My Personal Timeline. Made with 💖 by Mariam.</p>
+    </footer>
+  </html>
